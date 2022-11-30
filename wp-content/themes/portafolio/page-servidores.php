@@ -1,14 +1,14 @@
 <?php get_header(); ?>
 <section style="background-color: #0B0D0E;" class="pb-4 pt-4">
-    <div class="container pt-4">
+    <div class="container pt-4 mt-4">
         <div class="container-fluid pt-4">
             <div class="row align-items-center">
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="profile">
                         <h2 class="profile__title profile__title__second">Servidores <span> y administradores</span></h2>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-md-6">
                     <div class="profile">
                         <p class="profile__paragraph">Mi experiencia con servidores que he trabajado para subir el proyecto tanto Dominio y Hosting. También que administradores he usado como Cpanel, Plesk , etc. Conocimiento básico en Amazon; usando la terminal con PuTTY SSH. Experiencia trabajando con FTP conectando con FileZilla. Dominio de repositorios y GitHub y GitLab.</p>
                     </div>
@@ -37,7 +37,7 @@
                         $name = get_the_title();
                         $image = get_the_post_thumbnail_url();
                     ?>
-                    <div class="col-3 mb-4">
+                    <div class="col-6 col-md-4 col-xl-3 mb-4">
                         <div class="service__servers">
                             <img src="<?php echo $image ?>" alt="" class="service__servers__img">
                             <h2 class="text-center mt-3 service__servers__title"><?php echo $name ?></h2>
@@ -69,7 +69,7 @@
                         $name = get_the_title();
                         $image = get_the_post_thumbnail_url();
                     ?>
-                <div class="col-3 mb-4">
+                <div class="col-12 col-md-4 col-xl-3 mb-4">
                     <div class="service__servers">
                         <img src="<?php echo $image ?>" alt="" class="service__servers__img">
                         <h2 class="text-center mt-3 service__servers__title"><?php echo $name ?></h2>
@@ -101,7 +101,7 @@
                         $name = get_the_title();
                         $image = get_the_post_thumbnail_url();
                     ?>
-                <div class="col-3 mb-4">
+                <div class="col-12 col-md-4 col-xl-3 mb-4">
                     <div class="service__servers">
                         <img src="<?php echo $image ?>" alt="" class="service__servers__img">
                         <h2 class="text-center mt-3 service__servers__title"><?php echo $name ?></h2>
@@ -133,7 +133,7 @@
                         $name = get_the_title();
                         $image = get_the_post_thumbnail_url();
                     ?>
-                <div class="col-3 mb-4">
+                <div class="col-12 col-md-4 col-xl-3 mb-4">
                     <div class="service__servers">
                         <img src="<?php echo $image ?>" alt="" class="service__servers__img">
                         <h2 class="text-center mt-3 service__servers__title"><?php echo $name ?></h2>

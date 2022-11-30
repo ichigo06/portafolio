@@ -9,12 +9,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 pt-4">
+                <div class="col-12 col-md-6 pt-4">
                     <div class="img">
                         <img src="<?php echo get_the_post_thumbnail_url() ?>" alt="" width="100%" height="400px" style="object-fit: cover">
                     </div>
                 </div>
-                <div class="col-6 pt-4">
+                <div class="col-12 col-md-6 pt-4">
                     <div class="text-white">
                         <?php echo get_the_content() ?>
                     </div>
